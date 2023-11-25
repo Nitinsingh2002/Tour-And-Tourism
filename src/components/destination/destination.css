@@ -1,0 +1,118 @@
+.destination {
+    text-align: center;
+    /* padding-top: 15px; */
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.destination_Heading {
+    font-size: 3rem;
+    padding-bottom: 5px;
+}
+
+.destination_paragraph {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.firstDestination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.text_description {
+    width: 45%;
+    text-align: justify;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+}
+
+.text_description h2 {
+    padding-bottom: 1.5rem;
+    text-align: start;
+}
+
+
+
+
+
+.firstDescription_image {
+    width: 50%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+
+}
+
+.firstDescription_image img {
+    width: 49%;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.firstDescription_image img:nth-child(2) {
+    position: absolute;
+    top: -10%;
+    right: 0;
+}
+
+.firstDestination-reverse{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 5.5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+
+@media screen and (max-width: 850px) {
+    .destination {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .firstDestination {
+        flex-direction: column-reverse;
+
+        padding: 0%;
+        margin: 0%;
+        margin-top: 2.5rem;
+    }
+    .firstDestination-reverse{
+        flex-direction: column-reverse;
+
+        padding: 0%;
+        margin: 0%;
+        margin-top: 2.5rem;
+    }
+
+    .text_description {
+        width: 100%;
+        padding-left: 0rem;
+    }
+
+    .firstDescription_image {
+        width: 100%;
+        margin: 1.8rem 0;
+    }
+    .firstDescription_image img {
+        height: 250px;
+    }
+    .destination_Heading{
+        font-size: 2rem;
+    }
+   
+}

@@ -1,0 +1,88 @@
+.footer {
+    padding: 4rem 6rem;
+    background-color: black;
+    color: white;
+    padding-bottom: 3rem !important;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ftp h1 {
+    font-size: 2.5rem;
+}
+
+.ftp p {
+    margin-top: 5%;
+    font-size: 1.3rem;
+    width: 100%;
+    padding: 0% !important;
+}
+
+
+
+.bottom {
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.bottom div {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom h4 {
+    font-size: 1.3rem;
+    padding: 1rem 0 0.8rem 0;
+}
+
+.bottom p {
+    color: #fafafa;
+    padding-bottom: 0.4rem;
+    font-size: 1.1rem;
+}
+
+.socialIcons {
+    margin-top: 4%;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.hover{
+    border-radius: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+}
+.hover:hover {
+    box-shadow: 0 0 10px 0 red;
+
+}
+
+.hover:hover .icons {
+    color:red; /* Change text color */
+}
+@media screen and (max-width: 850px) {
+    .footer {
+        padding: 4rem 2rem;
+    }
+
+    .bottom div {
+        width: 50%;
+        padding-left: 2rem;
+    }
+}
